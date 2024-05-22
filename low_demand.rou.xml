@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-12 16:28:28 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="car" length="4.00" maxSpeed="55.55" accel="1.0" decel="3.0" sigma="0.5"/>
+    <!-- Routes -->
+    <route id="east_north" edges="EI NO"/>
+    <route id="east_south" edges="EI SO"/>
+    <route id="east_west" edges="EI WO"/>
+    <route id="north_east" edges="NI EO"/>
+    <route id="north_south" edges="NI SO"/>
+    <route id="north_west" edges="NI WO"/>
+    <route id="south_east" edges="SI EO"/>
+    <route id="south_north" edges="SI NO"/>
+    <route id="south_west" edges="SI WO"/>
+    <route id="west_east" edges="WI EO"/>
+    <route id="west_north" edges="WI NO"/>
+    <route id="west_south" edges="WI SO"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="car_flow1" begin="0.00" color="yellow" route="east_south" end="0.00" number="2"/>
+    <flow id="car_flow10" begin="0.00" color="yellow" route="west_south" end="0.00" number="3"/>
+    <flow id="car_flow11" begin="0.00" color="yellow" route="north_west" end="0.00" number="1"/>
+    <flow id="car_flow12" begin="0.00" color="yellow" route="south_east" end="0.00" number="1"/>
+    <flow id="car_flow2" begin="0.00" color="yellow" route="west_east" end="0.00" number="5"/>
+    <flow id="car_flow3" begin="0.00" color="yellow" route="north_south" end="0.00" number="2"/>
+    <flow id="car_flow4" begin="0.00" color="yellow" route="south_north" end="0.00" number="2"/>
+    <flow id="car_flow5" begin="0.00" color="yellow" route="east_west" end="0.00" number="5"/>
+    <flow id="car_flow6" begin="0.00" color="yellow" route="west_north" end="0.00" number="2"/>
+    <flow id="car_flow7" begin="0.00" color="yellow" route="north_east" end="0.00" number="1"/>
+    <flow id="car_flow8" begin="0.00" color="yellow" route="south_west" end="0.00" number="1"/>
+    <flow id="car_flow9" begin="0.00" color="yellow" route="east_north" end="0.00" number="3"/>
+</routes>
